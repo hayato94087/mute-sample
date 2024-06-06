@@ -48,7 +48,7 @@ micInputStream.on('error', (err: Error) => {
   console.error('Error: ', err);
 });
 
-// ストリーム終了時の処理
+// 録音の開始
 mic.start();
 console.log('Recording...');
 
